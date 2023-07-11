@@ -2,13 +2,15 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: 'KoPubWorld Batang Light';
+  src: url('../../public/fonts/KoPubWorld Batang Light.ttf');
+}
+
 * {
   outline: none;
   box-sizing: border-box;
-  font-family: 'Pretendard Variable', Pretendard, -apple-system,
-    BlinkMacSystemFont, system-ui, Roboto, 'Helvetica Neue', 'Segoe UI',
-    'Apple SD Gothic Neo', 'Noto Sans KR', 'Malgun Gothic', 'Apple Color Emoji',
-    'Segoe UI Emoji', 'Segoe UI Symbol', sans-serif;
+  font-family: 'KoPubWorld Batang Light', 'KoPubWorld Batang Light';
 }
 #root {
   line-height: 1;
