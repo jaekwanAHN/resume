@@ -1,12 +1,3 @@
-import Introduce from '@/app/components/Introduce';
-import Header from '@/app/components/Header';
-
 export default function Home() {
-  return (
-    <main>
-      <Header />
-      <Introduce />
-      main
-    </main>
-  );
+  return <main>오ㅓㅐ 안돼 main</main>;
 }
