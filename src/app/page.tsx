@@ -1,10 +1,10 @@
 import Introduce from '@/app/components/Introduce';
-import Temp from '@/app/components/Temp';
+import Header from '@/app/components/Header';
 
 export default function Home() {
   return (
     <main>
-      <Temp />
+      <Header />
       <Introduce />
     </main>
   );
