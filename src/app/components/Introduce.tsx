@@ -1,4 +1,4 @@
-export const Introduce = () => {
+export default function Introduce() {
   return (
     <div>
       <p>
@@ -11,6 +11,4 @@ export const Introduce = () => {
       </p>
     </div>
   );
-};
-
-export default Introduce;
+}
