@@ -1,4 +1,4 @@
-import Introduce from './components/Introduce';
+import Introduce from '@/app/components/Introduce';
 
 export default function Home() {
   return (
