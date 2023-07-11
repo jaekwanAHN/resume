@@ -1,5 +1,5 @@
 export const Header = () => {
-  return <div>Im header</div>;
+  return <div>뭐가 문제일까</div>;
 };
 
 export default Header;
