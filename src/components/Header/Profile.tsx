@@ -1,8 +1,8 @@
-const Profile = () => {
-  return (
-    // <div className="w-120">
-    <h1>안재관</h1>
-    // </div>
-  );
+interface ProfileProps {
+  name: string;
+}
+
+const Profile = ({ name }: ProfileProps) => {
+  return <h1>{name}</h1>;
 };
 export default Profile;
