@@ -1,14 +1,26 @@
 import InfoDate from '@/components/Projects/InfoDate';
 import InfoLinks from '@/components/Projects/InfoLinks';
 
-const ProjectInfos = () => {
+interface ProjectInfos {
+  projectDate: string;
+  projectParticipants: string;
+  deployLink: string;
+  githubLink: string;
+}
+
+const ProjectInfos = ({
+  projectDate,
+  projectParticipants,
+  deployLink,
+  githubLink,
+}: ProjectInfos) => {
   return (
     <div className="pr-8">
-      <InfoDate projectDate={`2023.03~2023.05`} projectParticipants={'2명'} />
-      <InfoLinks
-        deployLink={'https://dust-rating.vercel.app/'}
-        githubLink={'https://github.com/tooooo1/dust-rating'}
+      <InfoDate
+        projectDate={projectDate}
+        projectParticipants={projectParticipants}
       />
+      <InfoLinks deployLink={deployLink} githubLink={githubLink} />
     </div>
   );
 };
