@@ -5,9 +5,9 @@ import { projects } from '@/data/projects';
 
 export default function Page() {
   return (
-    <main className="container mx-auto">
+    <main>
       <Header PersonalInformation={PersonalInformation} />
-      <hr />
+
       <Projects projects={projects} />
     </main>
   );
