@@ -8,17 +8,28 @@ interface ProjectInfoProps {
 
 const Projects = ({ projects }: ProjectInfoProps) => {
   return (
-    <div className="flex justify-start">
-      <ProjectInfos
-        projectDate={projects[0].projectDate}
-        projectParticipants={projects[0].projectParticipants}
-        deployLink={projects[0].deployLink} // 추후 idx 하드코딩 -> list rendering 으로 수정 필요
-        githubLink={projects[0].githubLink}
-      />
-      <ProjectContent
-        stackList={projects[0].stackList}
-        feature={projects[0].feature}
-      />
+    <div className="flex justify-start flex-col">
+      <p className="text-2xl">Projects</p>
+      {projects.map((project) => {
+        return (
+          <div key={project.title} className="flex flex-row pb-8">
+            <div className="flex">
+              <ProjectInfos
+                projectDate={project.projectDate}
+                projectParticipants={project.projectParticipants}
+                deployLink={project.deployLink}
+                githubLink={project.githubLink}
+              />
+              <ProjectContent
+                stackList={project.stackList}
+                feature={project.feature}
+                description={project.description}
+              />
+            </div>
+            <hr />
+          </div>
+        );
+      })}
     </div>
   );
 };

@@ -15,7 +15,7 @@ const ProjectInfos = ({
   githubLink,
 }: ProjectInfos) => {
   return (
-    <div className="pr-8">
+    <div className="min-w-[200px] pr-8">
       <InfoDate
         projectDate={projectDate}
         projectParticipants={projectParticipants}
