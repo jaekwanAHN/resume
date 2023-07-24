@@ -11,7 +11,7 @@ const Contact = ({ phoneNumber, eMail, github, blog }: ContactProps) => {
   return (
     <div className="contactContainer">
       <p>P.H: {phoneNumber}</p>
-      <p>EMail: {eMail}</p> {/*이메일 보내기 링크도 추가하기 */}
+      <a href="mailto:`ggstork@gmail.com`">EMail: {eMail}</a>{' '}
       <p>
         GitHub: <Link href={github}>{github}</Link>
       </p>
