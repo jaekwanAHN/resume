@@ -2,7 +2,7 @@ import { ProjectInfo } from '@/types';
 
 export const projects: ProjectInfo[] = [
   {
-    title: '랭킹 먼지',
+    projectTitle: '랭킹 먼지',
     description: '전국의 미세먼지 정보확인 서비스',
     projectDate: '2023.03 ~ 2023.05',
     projectParticipants: '2명',
@@ -28,7 +28,7 @@ export const projects: ProjectInfo[] = [
     ],
   },
   {
-    title: 'UnsungHero',
+    projectTitle: 'UnsungHero',
     description: '아버지들을 대상으로한 커뮤니티',
     projectDate: '2023.01-2023.01',
     projectParticipants: '4명',
@@ -50,7 +50,7 @@ export const projects: ProjectInfo[] = [
     ],
   },
   {
-    title: 'ODEEGO',
+    projectTitle: 'ODEEGO',
     description: '약속 장소를 공평하게 정하기위한 서비스',
     projectDate: '2023.02~2023.03',
     projectParticipants: 'FE4명 + BE3명',
@@ -66,7 +66,7 @@ export const projects: ProjectInfo[] = [
     ],
   },
   {
-    title: 'Notion',
+    projectTitle: 'Notion',
     description: 'Vanilla-JS로 구현한 Notion',
     projectDate: '2023.01',
     projectParticipants: '개인',

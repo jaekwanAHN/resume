@@ -13,12 +13,13 @@ const Projects = ({ projects }: ProjectInfoProps) => {
       {projects.map((project) => {
         return (
           <div
-            key={project.title}
+            key={project.projectTitle}
             className="flex flex-row border-2 border-transparent border-b-blue-600            
           pb-4"
           >
             <div className="flex">
               <ProjectInfos
+                projectTitle={project.projectTitle}
                 projectDate={project.projectDate}
                 projectParticipants={project.projectParticipants}
                 deployLink={project.deployLink}

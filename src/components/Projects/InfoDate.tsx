@@ -1,11 +1,17 @@
 interface InFoDateProps {
+  projectTitle: string;
   projectDate: string;
   projectParticipants: string;
 }
 
-const InfoDate = ({ projectDate, projectParticipants }: InFoDateProps) => {
+const InfoDate = ({
+  projectTitle,
+  projectDate,
+  projectParticipants,
+}: InFoDateProps) => {
   return (
     <>
+      <p>{projectTitle}</p>
       <p>{projectDate}</p>
       <p>{projectParticipants}</p>
     </>

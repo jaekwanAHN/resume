@@ -2,6 +2,7 @@ import InfoDate from '@/components/Projects/InfoDate';
 import InfoLinks from '@/components/Projects/InfoLinks';
 
 interface ProjectInfos {
+  projectTitle: string;
   projectDate: string;
   projectParticipants: string;
   deployLink: string;
@@ -9,6 +10,7 @@ interface ProjectInfos {
 }
 
 const ProjectInfos = ({
+  projectTitle,
   projectDate,
   projectParticipants,
   deployLink,
@@ -17,6 +19,7 @@ const ProjectInfos = ({
   return (
     <div className="min-w-[200px] pr-8">
       <InfoDate
+        projectTitle={projectTitle}
         projectDate={projectDate}
         projectParticipants={projectParticipants}
       />
