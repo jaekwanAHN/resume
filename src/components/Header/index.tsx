@@ -17,7 +17,7 @@ const Header = ({ PersonalInformation }: HeaderProps) => {
 
   return (
     <>
-      <div className="flex flex-row justify-around ">
+      <div className="flex flex-row justify-around pb-2">
         <Profile name={name} />
         <Contact
           phoneNumber={phoneNumber}

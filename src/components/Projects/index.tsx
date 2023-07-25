@@ -9,7 +9,7 @@ interface ProjectInfoProps {
 const Projects = ({ projects }: ProjectInfoProps) => {
   return (
     <div className="flex justify-start flex-col ">
-      <p className="text-2xl">Projects</p>
+      <p className="text-2xl text-blue-500">Projects</p>
       {projects.map((project) => {
         return (
           <div
