@@ -9,8 +9,9 @@ export const PersonalInformation = {
     [
       'HTML',
       'CSS',
-      'React Query',
       'Next.js',
+      'React Query',
+      'tailwindcss',
       'Chakra',
       'styled-components',
       'Framer Motion',
