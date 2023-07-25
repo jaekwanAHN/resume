@@ -1,4 +1,5 @@
 import { PersonalInformation } from '@/data/personal';
+import { Fragment } from 'react';
 
 const Experiences = () => {
   return (
@@ -6,7 +7,7 @@ const Experiences = () => {
       <p className="text-2xl text-blue-500">Experiences</p>
       {PersonalInformation.experiences.map((experience) => {
         return (
-          <>
+          <Fragment key={experience.name}>
             <p>
               {experience.name} {experience.date}
             </p>
@@ -16,7 +17,7 @@ const Experiences = () => {
                 return <li key={work}>{work}</li>;
               })}
             </ul>
-          </>
+          </Fragment>
         );
       })}
     </div>
