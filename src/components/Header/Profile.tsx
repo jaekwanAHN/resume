@@ -3,6 +3,10 @@ interface ProfileProps {
 }
 
 const Profile = ({ name }: ProfileProps) => {
-  return <h1>{name}</h1>;
+  return (
+    <div className="flex justify-center items-center min-w-[10%]">
+      <p className="text-xl">{name}</p>
+    </div>
+  );
 };
 export default Profile;

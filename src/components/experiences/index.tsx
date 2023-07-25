@@ -12,7 +12,7 @@ const Experiences = () => {
               {experience.name} {experience.date}
             </p>
 
-            <ul className="pb-2">
+            <ul className="marker:text-blue-500 list-disc list-inside pb-2">
               {experience.works.map((work) => {
                 return <li key={work}>{work}</li>;
               })}

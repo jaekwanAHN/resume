@@ -18,13 +18,13 @@ export const projects: ProjectInfo[] = [
       'Framer Motion',
     ],
     feature: [
-      'Kakao MAP api 사용을 위한 useMap Hook(줌 인/아웃, 내위치 이동, custom overlay)을 구현',
+      'Kakao MAP api 사용을 위한 useMap Hook(줌 인/아웃, 내위치 이동, custom overlay) 구현',
       'geolocation api를 사용하여 내위치 기반 정보 제공 ',
       '에러 바운더리와 서스펜스를 묶은 Async 바운더리를 적용하여 선언적으로 에러 처리와 로딩 UI 처리',
       '반응형 페이지들로 제작하여 다양한 환경에 대응',
       '페이지들의 CLS를 0으로 개선',
       'UI 일관성 유지를 위하여 Skeleton UI 적용',
-      '각 페이지간 이동을 위한 NaviBar를 구현',
+      '각 페이지간 이동을 위한 NaviBar 구현',
     ],
   },
   {
@@ -44,9 +44,9 @@ export const projects: ProjectInfo[] = [
     feature: [
       '게시글 CRUD 구현',
       '이미지 업로드 크기, 확장자를 제한하여 API 호출시 에러 방지',
-      '게시글의 좋아요, 댓글기능을 구현',
-      '작성중인 글 별로 작성중인 내용이 사라지지 않도록 LocalStorage를 활용하여 내용을 보존',
-      '업로드 할 이미지를 미리 볼 수 있도록 구현',
+      '게시글의 좋아요, 댓글 기능 구현',
+      '작성중인 글 별로 작성중인 내용이 사라지지 않도록 LocalStorage를 활용하여 내용 보존',
+      '업로드 할 이미지 미리보기 구현',
     ],
   },
   {
@@ -58,11 +58,11 @@ export const projects: ProjectInfo[] = [
     githubLink: 'https://github.com/prgrms-web-devcourse/Team-PODO-ODEEGO-FE',
     stackList: ['React', 'TypeScript', 'Next.js', 'React Query', 'Axios'],
     feature: [
-      '1주 단위의 스프린트를 통해 스크럼과 회고를 진행함',
+      '1주 단위의 스프린트를 통해 스크럼과 회고를 진행',
       'BE와 통신할 때 에러분기를 더 상세히 나누기 위해서 customError코드를 사용하기로 협의',
-      'API Routes를 사용하여 외부에 환경변수가 노출되지 않도록 함',
-      'ESLint, Prettier, husky를 적용하고 github-wiki에 컨벤션을 작성하여 통일함',
-      '리뷰 파트너를 정하여 코드 리뷰를 진행함',
+      'API Routes를 사용하여 외부에 환경변수가 노출 방지',
+      'ESLint, Prettier, husky를 적용하고 github-wiki에 컨벤션을 작성하여 통일',
+      '리뷰 파트너를 정하여 코드 리뷰를 진행',
     ],
   },
   {
@@ -76,9 +76,9 @@ export const projects: ProjectInfo[] = [
     stackList: ['Vanilla-JS'],
     feature: [
       '바닐라 자바스크립트로 SPA를 구현',
-      '글을 작성하던 중 새로고침이 일어나더라도 작성중인 글의 내용이 사라지지 않도록 LocalStorage를 사용하여 글의 제목과 내용을 보존',
+      '글을 작성하던 중 새로고침이 일어나더라도 작성중인 글의 내용이 사라지지 않도록 LocalStorage를 사용하여 글의 제목과 내용 보존',
       'History API를 통하여 새로고침 없이 페이지 이동 구현',
-      '사용자가 텍스트를 입력시 매번 API Call이 일어나는 현상을 방지하고자 setTimeout을 활용한 Debounce를 적용',
+      '사용자가 텍스트를 입력시 매번 API Call이 일어나는 현상을 방지하고자 setTimeout을 활용한 Debounce 적용',
     ],
   },
 ];
