@@ -9,16 +9,32 @@ interface ContactProps {
 
 const Contact = ({ phoneNumber, eMail, github, blog }: ContactProps) => {
   return (
-    <div className="contactContainer">
-      <p>P.H: {phoneNumber}</p>
-      <a href="mailto:`ggstork@gmail.com`">EMail: {eMail}</a>{' '}
-      <p>
-        GitHub: <Link href={github}>{github}</Link>
-      </p>
-      <p>
-        Blog: <Link href={blog}>{blog}</Link>
-      </p>
-    </div>
+    <table className="center">
+      <tbody>
+        <tr>
+          <td>P.H: </td>
+          <td>{phoneNumber}</td>
+        </tr>
+        <tr>
+          <td>Email: </td>
+          <td>
+            <a href="mailto:ggstork@gmail.com">{eMail}</a>
+          </td>
+        </tr>
+        <tr>
+          <td>Github: </td>
+          <td>
+            <Link href={github}>{github}</Link>
+          </td>
+        </tr>
+        <tr>
+          <td>Blog: </td>
+          <td>
+            <Link href={blog}>{blog}</Link>
+          </td>
+        </tr>
+      </tbody>
+    </table>
   );
 };
 
