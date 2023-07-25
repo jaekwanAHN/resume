@@ -1,6 +1,6 @@
 const Introduce = () => {
   return (
-    <div className="pb-8">
+    <div className="pb-2">
       <p>
         함께 일하는 것을 좋아합니다. 페어 프로그래밍을 진행하면서 문제를 해결해
         본 경험이 있습니다. 팀 프로젝트를 진행하며 1주 단위의 스프린트와 데일리
