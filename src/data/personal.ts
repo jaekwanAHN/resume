@@ -12,6 +12,7 @@ export const PersonalInformation = {
       'Next.js',
       'React Query',
       'Vercel',
+      'Storybook',
       'tailwindcss',
       'Chakra',
       'styled-components',
