@@ -11,6 +11,7 @@ export const PersonalInformation = {
       'CSS',
       'Next.js',
       'React Query',
+      'Vercel',
       'tailwindcss',
       'Chakra',
       'styled-components',
