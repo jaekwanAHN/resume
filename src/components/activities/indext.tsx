@@ -1,5 +1,11 @@
+import Link from 'next/link';
+import { Fragment } from 'react';
+
 interface activitiesProps {
-  activities: string[];
+  activities: {
+    title: string;
+    link: string;
+  }[];
 }
 
 const Activities = ({ activities }: activitiesProps) => {
@@ -7,7 +13,12 @@ const Activities = ({ activities }: activitiesProps) => {
     <div className="pb-2">
       <p className="text-2xl text-blue-500">Activities</p>
       {activities.map((activity) => {
-        return <p key={activity}>{activity}</p>;
+        return (
+          <Fragment key={activity.title}>
+            <Link href={activity.link}>{activity.title}</Link>
+            <br />
+          </Fragment>
+        );
       })}
     </div>
   );

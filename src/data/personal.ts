@@ -42,8 +42,17 @@ export const PersonalInformation = {
   education: '국민대학교(컴퓨터공학 전공 • 학사 ) 2014-02 ~ 2021-02',
   certification: '정보처리기사 2020-12',
   activities: [
-    'NextJS DOC 한글화 작업 참여',
-    'GitHub: https://github.com/jaekwanAHN',
-    'Blog: https://jaekwan.tistory.com/',
+    {
+      title: 'NextJS DOC 한글화 작업 참여',
+      link: 'https://github.com/Nextjs-kr/Nextjs.kr/pull/252',
+    },
+    {
+      title: 'GitHub: https://github.com/jaekwanAHN',
+      link: 'https://github.com/jaekwanAHN',
+    },
+    {
+      title: 'Blog: https://jaekwan.tistory.com/',
+      link: 'https://jaekwan.tistory.com/',
+    },
   ],
 };
