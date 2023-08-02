@@ -14,7 +14,7 @@ const ProjectContent = ({
   return (
     <div>
       <p className="font-semibold mb-2">{description}</p>
-      <ul className="marker:text-blue-500 list-disc  mb-2">
+      <ul className="marker:text-blue-500 list-disc mb-2">
         {feature.map((value) => (
           <li key={value}>{value}</li>
         ))}

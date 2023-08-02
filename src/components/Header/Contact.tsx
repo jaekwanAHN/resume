@@ -11,7 +11,7 @@ const Contact = ({ phoneNumber, eMail, github, blog }: ContactProps) => {
   return (
     <table className="center">
       <tbody>
-        <tr className="mr-2">
+        <tr>
           <td>P.H: </td>
           <td>
             <b>{phoneNumber}</b>
@@ -22,7 +22,9 @@ const Contact = ({ phoneNumber, eMail, github, blog }: ContactProps) => {
           <td>
             <b>
               {' '}
-              <a href="mailto:ggstork@gmail.com">{eMail}</a>
+              <a href="mailto:ggstork@gmail.com">
+                <i>{eMail}</i>
+              </a>
             </b>
           </td>
         </tr>
@@ -30,7 +32,9 @@ const Contact = ({ phoneNumber, eMail, github, blog }: ContactProps) => {
           <td>Github: </td>
           <td>
             <Link href={github}>
-              <b>{github}</b>
+              <b>
+                <i>{github}</i>
+              </b>
             </Link>
           </td>
         </tr>
@@ -38,7 +42,9 @@ const Contact = ({ phoneNumber, eMail, github, blog }: ContactProps) => {
           <td>Blog: </td>
           <td>
             <Link href={blog}>
-              <b>{blog}</b>
+              <b>
+                <i>{blog}</i>
+              </b>
             </Link>
           </td>
         </tr>
