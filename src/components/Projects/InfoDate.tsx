@@ -10,7 +10,7 @@ const InfoDate = ({
   projectParticipants,
 }: InFoDateProps) => {
   return (
-    <div className="mb-4">
+    <div className="text-lg mb-4">
       <p>
         <b>{projectTitle}</b>
       </p>
