@@ -3,7 +3,7 @@ import { PersonalInformation } from '@/data/personal';
 const Experiences = () => {
   return (
     <div className="section">
-      <p className="text-2xl text-blue-500">Experiences</p>
+      <p className="text-2xl text-blue-500 sectionTitle">Experiences</p>
       {PersonalInformation.experiences.map((experience) => {
         return (
           <div key={experience.name} className="mb-2">

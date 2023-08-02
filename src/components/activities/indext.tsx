@@ -11,7 +11,7 @@ interface activitiesProps {
 const Activities = ({ activities }: activitiesProps) => {
   return (
     <div className="section">
-      <p className="text-2xl text-blue-500">Activities</p>
+      <p className="text-2xl text-blue-500 sectionTitle">Activities</p>
       {activities.map((activity) => {
         return (
           <Fragment key={activity.title}>
