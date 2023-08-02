@@ -13,24 +13,33 @@ const Contact = ({ phoneNumber, eMail, github, blog }: ContactProps) => {
       <tbody>
         <tr>
           <td>P.H: </td>
-          <td>{phoneNumber}</td>
+          <td>
+            <b>{phoneNumber}</b>
+          </td>
         </tr>
         <tr>
           <td>Email: </td>
           <td>
-            <a href="mailto:ggstork@gmail.com">{eMail}</a>
+            <b>
+              {' '}
+              <a href="mailto:ggstork@gmail.com">{eMail}</a>
+            </b>
           </td>
         </tr>
         <tr>
           <td>Github: </td>
           <td>
-            <Link href={github}>{github}</Link>
+            <Link href={github}>
+              <b>{github}</b>
+            </Link>
           </td>
         </tr>
         <tr>
           <td>Blog: </td>
           <td>
-            <Link href={blog}>{blog}</Link>
+            <Link href={blog}>
+              <b>{blog}</b>
+            </Link>
           </td>
         </tr>
       </tbody>
