@@ -4,7 +4,7 @@ interface EducationProps {
 
 const Education = ({ education }: EducationProps) => {
   return (
-    <div className="pb-2">
+    <div className="section">
       <p className="text-2xl text-blue-500">Education</p>
       <p>{education}</p>
     </div>

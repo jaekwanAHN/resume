@@ -2,7 +2,7 @@ import { PersonalInformation } from '@/data/personal';
 
 const Skills = () => {
   return (
-    <div className="pb-2">
+    <div className="section">
       <p className="text-2xl text-blue-500">Skills</p>
       <strong>{PersonalInformation.skills[0].join(', ')}</strong>
       <br />

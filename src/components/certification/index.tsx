@@ -4,7 +4,7 @@ interface certificationProps {
 
 const Certification = ({ certification }: certificationProps) => {
   return (
-    <div className="pb-2">
+    <div className="section">
       <p className="text-2xl text-blue-500">Certification</p>
       <p>{certification}</p>
     </div>

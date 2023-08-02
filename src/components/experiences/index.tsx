@@ -3,7 +3,7 @@ import { Fragment } from 'react';
 
 const Experiences = () => {
   return (
-    <div className="pb-2">
+    <div className="section">
       <p className="text-2xl text-blue-500">Experiences</p>
       {PersonalInformation.experiences.map((experience) => {
         return (

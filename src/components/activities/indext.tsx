@@ -10,7 +10,7 @@ interface activitiesProps {
 
 const Activities = ({ activities }: activitiesProps) => {
   return (
-    <div className="pb-2">
+    <div className="section">
       <p className="text-2xl text-blue-500">Activities</p>
       {activities.map((activity) => {
         return (

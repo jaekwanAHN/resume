@@ -2,19 +2,19 @@
 @tailwind components;
 @tailwind utilities;
 
-@font-face {
-  font-family: 'KoPubWorld Batang Light';
-  src: url('https://cdn.jsdelivr.net/gh/webfontworld/kopus/KoPubWorldBatangLight.woff2')
-      format('woff2'),
-    url('https://cdn.jsdelivr.net/gh/webfontworld/kopus/KoPubWorldBatangLight.woff')
-      format('woff');
+* {
+  font-family: 'Pretendard,-apple-system,BlinkMacSystemFont,Bazier Square,Noto Sans KR,Segoe UI,Apple SD Gothic Neo,Roboto,Helvetica Neue,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;t';
 }
 
 * {
   outline: none;
   box-sizing: border-box;
-  font-family: 'KoPubWorld Batang Light', 'KoPubWorld Batang Light';
+  font-family: 'Pretendard,-apple-system,BlinkMacSystemFont,Bazier Square,Noto Sans KR,Segoe UI,Apple SD Gothic Neo,Roboto,Helvetica Neue,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;';
 }
 #root {
   line-height: 1;
+}
+
+.section {
+  margin-bottom: 24px;
 }
