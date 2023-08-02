@@ -15,7 +15,7 @@ const Projects = ({ projects }: ProjectInfoProps) => {
           <div
             key={project.projectTitle}
             className="flex flex-row border-2 border-transparent border-b-blue-600            
-          mb-4"
+          mb-2"
           >
             <div className="flex">
               <ProjectInfos
