@@ -6,7 +6,7 @@ export const PersonalInformation = {
   blog: 'https://jaekwan.tistory.com',
   skills: [
     ['React', 'TypeScript', 'HTML', 'CSS', 'JavaScript'],
-    ['Next.js', 'tailwindcss', 'Storybook', 'Vercel'],
+    ['Next.js', 'tailwindcss', 'Storybook', 'Vercel', 'Vite', 'Webpack'],
     ['React Query', 'ChakraUI', 'styled-components', 'Framer Motion', 'Axios'],
     ['Git', 'GitHub', 'Slack', 'Figma', 'Discord'],
   ],
