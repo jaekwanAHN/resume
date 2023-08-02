@@ -3,7 +3,7 @@ export const PersonalInformation = {
   phoneNumber: '010-8003-3635',
   eMail: 'ggstork@gmail.com',
   github: 'https://github.com/jaekwanAHN',
-  blog: 'https://jaekwan.tistory.com/',
+  blog: 'https://jaekwan.tistory.com',
   skills: [
     ['React', 'TypeScript', 'HTML', 'CSS', 'JavaScript'],
     ['Next.js', 'tailwindcss', 'Storybook', 'Vercel'],
@@ -40,7 +40,7 @@ export const PersonalInformation = {
       link: 'https://github.com/jaekwanAHN',
     },
     {
-      title: 'Blog: https://jaekwan.tistory.com/',
+      title: 'Blog: https://jaekwan.tistory.com',
       link: 'https://jaekwan.tistory.com/',
     },
   ],
