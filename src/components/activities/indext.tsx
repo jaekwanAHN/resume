@@ -15,7 +15,9 @@ const Activities = ({ activities }: activitiesProps) => {
       {activities.map((activity) => {
         return (
           <Fragment key={activity.title}>
-            <Link href={activity.link}>{activity.title}</Link>
+            <Link href={activity.link}>
+              <i>{activity.title}</i>
+            </Link>
             <br />
           </Fragment>
         );
