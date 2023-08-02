@@ -14,8 +14,8 @@ const InfoDate = ({
       <p>
         <b>{projectTitle}</b>
       </p>
-      <p className="font-light">{projectDate}</p>
-      <p className="font-light">{projectParticipants}</p>
+      <p className="font-light text-sm">{projectDate}</p>
+      <p className="font-light text-sm">{projectParticipants}</p>
     </div>
   );
 };
