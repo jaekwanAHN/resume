@@ -1,14 +1,24 @@
-import { PersonalInformation } from '@/data/personal';
+interface skillList {
+  skills: string[][];
+}
 
-const Skills = () => {
+const Skills = ({ skills }: skillList) => {
   return (
     <div className="section">
       <p className="text-2xl text-blue-500">Skills</p>
-      <strong>{PersonalInformation.skills[0].join(', ')}</strong>
-      <br />
-      {PersonalInformation.skills[1].join(', ')}
-      <br />
-      {PersonalInformation.skills[2].join(', ')}
+      <ul className="marker:text-blue-500 list-disc list-inside">
+        {skills.map((skillList, idx) => {
+          if (idx === 0) {
+            return (
+              <li key={skillList.join('')}>
+                <strong>{skillList.join(', ')}</strong>
+              </li>
+            );
+          } else {
+            return <li key={skillList.join('')}>{skillList.join(', ')}</li>;
+          }
+        })}
+      </ul>
     </div>
   );
 };

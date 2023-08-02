@@ -5,20 +5,9 @@ export const PersonalInformation = {
   github: 'https://github.com/jaekwanAHN',
   blog: 'https://jaekwan.tistory.com/',
   skills: [
-    ['JavaScript', 'TypeScript', 'React'],
-    [
-      'HTML',
-      'CSS',
-      'Next.js',
-      'React Query',
-      'Vercel',
-      'Storybook',
-      'tailwindcss',
-      'Chakra',
-      'styled-components',
-      'Framer Motion',
-      'Axios',
-    ],
+    ['React', 'TypeScript', 'HTML', 'CSS', 'JavaScript'],
+    ['Next.js', 'tailwindcss', 'Storybook', 'Vercel'],
+    ['React Query', 'ChakraUI', 'styled-components', 'Framer Motion', 'Axios'],
     ['Git', 'GitHub', 'Slack', 'Figma', 'Discord'],
   ],
   experiences: [

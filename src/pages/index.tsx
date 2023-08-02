@@ -13,7 +13,7 @@ export default function Page() {
     <main>
       <Header PersonalInformation={PersonalInformation} />
       <Projects projects={projects} />
-      <Skills />
+      <Skills skills={PersonalInformation.skills} />
       <Experiences />
       <Education education={PersonalInformation.education} />
       <Certification certification={PersonalInformation.certification} />
