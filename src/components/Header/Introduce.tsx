@@ -1,6 +1,6 @@
 const Introduce = () => {
   return (
-    <div className="pb-2">
+    <div className="mb-2">
       <p>
         협업을 좋아합니다. 페어 프로그래밍을 통해서 무분별한 useEffect의
         사용으로 지도에 마커가 제대로 렌더링 되지 않던 문제를 해결했고 일부

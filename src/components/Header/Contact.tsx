@@ -11,7 +11,7 @@ const Contact = ({ phoneNumber, eMail, github, blog }: ContactProps) => {
   return (
     <table className="center">
       <tbody>
-        <tr>
+        <tr className="mr-2">
           <td>P.H: </td>
           <td>
             <b>{phoneNumber}</b>

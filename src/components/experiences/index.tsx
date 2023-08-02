@@ -1,5 +1,4 @@
 import { PersonalInformation } from '@/data/personal';
-import { Fragment } from 'react';
 
 const Experiences = () => {
   return (
@@ -7,17 +6,17 @@ const Experiences = () => {
       <p className="text-2xl text-blue-500">Experiences</p>
       {PersonalInformation.experiences.map((experience) => {
         return (
-          <Fragment key={experience.name}>
+          <div key={experience.name} className="mb-2">
             <p>
               {experience.name} {experience.date}
             </p>
 
-            <ul className="marker:text-blue-500 list-disc list-inside pb-2">
+            <ul className="marker:text-blue-500 list-disc list-inside">
               {experience.works.map((work) => {
                 return <li key={work}>{work}</li>;
               })}
             </ul>
-          </Fragment>
+          </div>
         );
       })}
     </div>

@@ -5,7 +5,7 @@ interface ProfileProps {
 const Profile = ({ name }: ProfileProps) => {
   return (
     <div className="flex justify-center items-center min-w-[10%]">
-      <p className="text-xl">{name}</p>
+      <p className="text-[40px]">{name}</p>
     </div>
   );
 };

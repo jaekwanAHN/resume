@@ -10,11 +10,13 @@ const InfoDate = ({
   projectParticipants,
 }: InFoDateProps) => {
   return (
-    <>
-      <p>{projectTitle}</p>
-      <p>{projectDate}</p>
-      <p>{projectParticipants}</p>
-    </>
+    <div className="mb-4">
+      <p>
+        <b>{projectTitle}</b>
+      </p>
+      <p className="font-light">{projectDate}</p>
+      <p className="font-light">{projectParticipants}</p>
+    </div>
   );
 };
 
