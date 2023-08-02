@@ -16,7 +16,7 @@ const Header = ({ PersonalInformation }: HeaderProps) => {
   const { name, phoneNumber, eMail, github, blog } = PersonalInformation;
 
   return (
-    <>
+    <div className="section">
       <div className="section flex flex-row  justify-around">
         <Profile name={name} />
         <Contact
@@ -27,7 +27,7 @@ const Header = ({ PersonalInformation }: HeaderProps) => {
         />
       </div>
       <Introduce />
-    </>
+    </div>
   );
 };
 
