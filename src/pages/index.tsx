@@ -14,10 +14,10 @@ export default function Page() {
       <Header PersonalInformation={PersonalInformation} />
       <Projects projects={projects} />
       <Skills skills={PersonalInformation.skills} />
+      <Activities activities={PersonalInformation.activities} />
       <Experiences />
       <Education education={PersonalInformation.education} />
       <Certification certification={PersonalInformation.certification} />
-      <Activities activities={PersonalInformation.activities} />
     </main>
   );
 }
