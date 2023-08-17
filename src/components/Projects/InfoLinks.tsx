@@ -8,13 +8,9 @@ interface InfoLinksProps {
 const InfoLinks = ({ deployLink, githubLink }: InfoLinksProps) => {
   return (
     <>
-      <Link href={deployLink}>
-        <i>배포 링크</i>
-      </Link>
+      <Link href={deployLink}>배포 링크</Link>
       <br />
-      <Link href={githubLink}>
-        <i>GitHub 링크</i>
-      </Link>
+      <Link href={githubLink}>GitHub 링크</Link>
     </>
   );
 };

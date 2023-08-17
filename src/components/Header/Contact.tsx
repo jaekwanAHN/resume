@@ -22,9 +22,7 @@ const Contact = ({ phoneNumber, eMail, github, blog }: ContactProps) => {
           <td>
             <b>
               {' '}
-              <a href="mailto:ggstork@gmail.com">
-                <i>{eMail}</i>
-              </a>
+              <a href="mailto:ggstork@gmail.com">{eMail}</a>
             </b>
           </td>
         </tr>
@@ -32,9 +30,7 @@ const Contact = ({ phoneNumber, eMail, github, blog }: ContactProps) => {
           <td>Github: </td>
           <td>
             <Link href={github}>
-              <b>
-                <i>{github}</i>
-              </b>
+              <b>{github}</b>
             </Link>
           </td>
         </tr>
@@ -42,9 +38,7 @@ const Contact = ({ phoneNumber, eMail, github, blog }: ContactProps) => {
           <td>Blog: </td>
           <td>
             <Link href={blog}>
-              <b>
-                <i>{blog}</i>
-              </b>
+              <b>{blog}</b>
             </Link>
           </td>
         </tr>
