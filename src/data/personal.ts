@@ -2,13 +2,13 @@ export const PersonalInformation = {
   name: '안재관',
   phoneNumber: '010-8003-3635',
   eMail: 'ggstork@gmail.com',
-  github: 'https://github.com/jaekwanAHN',
+  GitHub: 'https://github.com/jaekwanAHN',
   blog: 'https://jaekwan.tistory.com',
   skills: [
-    ['React', 'TypeScript', 'HTML', 'CSS', 'JavaScript'],
-    ['Next.js', 'tailwindcss', 'Storybook', 'Vercel', 'Vite', 'Webpack'],
-    ['React Query', 'ChakraUI', 'styled-components', 'Framer Motion', 'Axios'],
-    ['Git', 'GitHub', 'Slack', 'Figma', 'Discord'],
+    ['React', 'TypeScript', 'JavaScript'],
+    ['Next.js', 'tailwindcss', 'ChakraUI', 'styled-components'],
+    ['Axios', 'React Query', , 'Storybook', 'Framer Motion', 'Vite'],
+    ['Git', 'GitHub'],
   ],
   experiences: [
     {
@@ -34,14 +34,6 @@ export const PersonalInformation = {
     {
       title: 'NextJS DOC 한글화 작업 참여',
       link: 'https://github.com/Nextjs-kr/Nextjs.kr/pull/252',
-    },
-    {
-      title: 'GitHub: https://github.com/jaekwanAHN',
-      link: 'https://github.com/jaekwanAHN',
-    },
-    {
-      title: 'Blog: https://jaekwan.tistory.com',
-      link: 'https://jaekwan.tistory.com/',
     },
   ],
 };
