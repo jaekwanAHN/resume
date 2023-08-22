@@ -1,13 +1,15 @@
-export const PersonalInformation = {
+import { PersonalInformation } from '@/types';
+
+export const personalInformation: PersonalInformation = {
   name: '안재관',
   phoneNumber: '010-8003-3635',
   eMail: 'ggstork@gmail.com',
-  GitHub: 'https://github.com/jaekwanAHN',
+  github: 'https://github.com/jaekwanAHN',
   blog: 'https://jaekwan.tistory.com',
   skills: [
     ['React', 'TypeScript', 'JavaScript'],
     ['Next.js', 'tailwindcss', 'ChakraUI', 'styled-components'],
-    ['Axios', 'React Query', , 'Storybook', 'Framer Motion', 'Vite'],
+    ['Axios', 'React Query', 'Storybook', 'Framer Motion', 'Vite'],
     ['Git', 'GitHub'],
   ],
   experiences: [

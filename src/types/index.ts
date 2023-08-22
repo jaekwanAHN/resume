@@ -8,3 +8,23 @@ export interface ProjectInfo {
   stackList: string[];
   feature: string[];
 }
+
+export interface PersonalInformation {
+  name: string;
+  phoneNumber: string;
+  eMail: string;
+  github: string;
+  blog: string;
+  skills: string[][];
+  experiences: {
+    name: string;
+    date: string;
+    works: string[];
+  }[];
+  education: string;
+  certification: string;
+  activities: {
+    title: string;
+    link: string;
+  }[];
+}
