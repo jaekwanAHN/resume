@@ -4,6 +4,7 @@ interface activitiesProps {
   activities: {
     title: string;
     link: string;
+    description: string;
   }[];
 }
 
@@ -14,9 +15,8 @@ const Activities = ({ activities }: activitiesProps) => {
       {activities.map((activity) => {
         return (
           <li key={activity.title}>
-            <Link href={activity.link}>
-              <i>{activity.title}</i>
-            </Link>
+            <Link href={activity.link}>{activity.title}</Link>
+            <p>{activity.description}</p>
             <br />
           </li>
         );

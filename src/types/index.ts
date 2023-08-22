@@ -26,5 +26,6 @@ export interface PersonalInformation {
   activities: {
     title: string;
     link: string;
+    description: string;
   }[];
 }
