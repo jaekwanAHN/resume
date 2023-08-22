@@ -27,7 +27,7 @@ const Contact = ({ phoneNumber, eMail, github, blog }: ContactProps) => {
           </td>
         </tr>
         <tr>
-          <td>Github: </td>
+          <td>GitHub: </td>
           <td>
             <Link href={github}>
               <b>{github}</b>
