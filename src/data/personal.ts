@@ -7,9 +7,10 @@ export const personalInformation: PersonalInformation = {
   github: 'https://github.com/jaekwanAHN',
   blog: 'https://jaekwan.tistory.com',
   skills: [
-    ['React', 'TypeScript', 'JavaScript'],
-    ['Next.js', 'tailwindcss', 'ChakraUI', 'styled-components'],
-    ['Axios', 'React Query', 'Storybook', 'Framer Motion', 'Vite'],
+    ['TypeScript', 'JavaScript'],
+    ['React', 'Next.js'],
+    ['Tailwind CSS', 'Chakra UI', 'Emotions'],
+    ['Axios', 'React Query', 'Storybook'],
     ['Git', 'GitHub'],
   ],
   experiences: [
@@ -36,6 +37,7 @@ export const personalInformation: PersonalInformation = {
     {
       title: 'NextJS DOC 한글화 작업 참여',
       link: 'https://github.com/Nextjs-kr/Nextjs.kr/pull/252',
+      description: `app/api-reference/components/script 문서를 번역했습니다.`,
     },
   ],
 };
