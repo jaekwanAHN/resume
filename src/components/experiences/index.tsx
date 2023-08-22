@@ -19,7 +19,11 @@ const Experiences = ({ experiences }: ExperiencesProps) => {
 
             <ul className="marker:text-blue-500 list-disc list-inside">
               {experience.works.map((work) => {
-                return <li key={work}>{work}</li>;
+                return (
+                  <li style={{ wordWrap: 'break-word' }} key={work}>
+                    {work}
+                  </li>
+                );
               })}
             </ul>
           </div>
