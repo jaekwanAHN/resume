@@ -5,19 +5,19 @@ import Certification from '@/components/certification';
 import Education from '@/components/education';
 import Experiences from '@/components/experiences';
 import Skills from '@/components/skills';
-import { PersonalInformation } from '@/data/personal';
+import { personalInformation } from '@/data/personal';
 import { projects } from '@/data/projects';
 
 export default function Page() {
   return (
     <main>
-      <Header PersonalInformation={PersonalInformation} />
+      <Header PersonalInformation={personalInformation} />
       <Projects projects={projects} />
-      <Skills skills={PersonalInformation.skills} />
-      <Activities activities={PersonalInformation.activities} />
-      <Experiences />
-      <Education education={PersonalInformation.education} />
-      <Certification certification={PersonalInformation.certification} />
+      <Skills skills={personalInformation.skills} />
+      <Activities activities={personalInformation.activities} />
+      <Experiences experiences={personalInformation.experiences} />
+      <Education education={personalInformation.education} />
+      <Certification certification={personalInformation.certification} />
     </main>
   );
 }

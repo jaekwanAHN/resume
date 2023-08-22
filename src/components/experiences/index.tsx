@@ -1,10 +1,16 @@
-import { PersonalInformation } from '@/data/personal';
+interface ExperiencesProps {
+  experiences: {
+    name: string;
+    date: string;
+    works: string[];
+  }[];
+}
 
-const Experiences = () => {
+const Experiences = ({ experiences }: ExperiencesProps) => {
   return (
     <div className="section">
       <p className="text-2xl text-blue-500 sectionTitle">Experiences</p>
-      {PersonalInformation.experiences.map((experience) => {
+      {experiences.map((experience) => {
         return (
           <div key={experience.name} className="mb-2">
             <p>
