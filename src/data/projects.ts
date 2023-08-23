@@ -18,8 +18,8 @@ export const projects: ProjectInfo[] = [
       'Framer Motion',
     ],
     feature: [
-      'Kakao MAP api 사용을 위한 useMap Hook(줌 인/아웃, 내위치 이동, custom overlay) 구현',
-      'geolocation api를 사용하여 내위치 기반 정보 제공 ',
+      'Kakao MAP API 사용을 위한 useMap Hook(줌 인/아웃, 내위치 이동, custom overlay) 구현',
+      'geolocation API를 사용하여 내위치 기반 정보 제공 ',
       '에러 바운더리와 서스펜스를 묶은 Async 바운더리를 적용하여 선언적으로 에러 처리와 로딩 UI 처리',
       '반응형 페이지들로 제작하여 다양한 환경에 대응',
       '페이지들의 CLS를 0으로 개선',
