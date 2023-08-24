@@ -19,12 +19,11 @@ export const projects: ProjectInfo[] = [
     ],
     feature: [
       'Kakao MAP API 사용을 위한 useMap Hook(줌 인/아웃, 내위치 이동, custom overlay) 구현',
-      'geolocation API를 사용하여 내위치 기반 정보 제공 ',
-      '에러 바운더리와 서스펜스를 묶은 Async 바운더리를 적용하여 선언적으로 에러 처리와 로딩 UI 처리',
+      'Geolocation  API를 사용하여 내위치 기반 정보 제공 ',
+      'Error Boundary와 Suspense를 묶은 Async Boundary를 적용하여 선언적으로 에러 처리와 로딩 UI 처리',
       '반응형 페이지들로 제작하여 다양한 환경에 대응',
-      '페이지들의 CLS를 0으로 개선',
       'UI 일관성 유지를 위하여 Skeleton UI 적용',
-      '각 페이지간 이동을 위한 NaviBar 구현',
+      '각 페이지간 이동을 위한 네비게이션바 구현',
     ],
   },
   {
@@ -61,7 +60,6 @@ export const projects: ProjectInfo[] = [
       '게시글 CRUD 구현',
       '이미지 업로드 크기, 확장자를 제한하여 API 호출시 에러 방지',
       '게시글의 좋아요, 댓글 기능 구현',
-      '작성중인 글 별로 작성중인 내용이 사라지지 않도록 LocalStorage를 활용하여 내용 보존',
       '업로드 할 이미지 미리보기 구현',
     ],
   },
