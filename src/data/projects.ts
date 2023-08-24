@@ -13,9 +13,10 @@ export const projects: ProjectInfo[] = [
       'TypeScript',
       'Vite',
       'Chakra UI',
+      'Framer Motion',
       'React Query',
       'Axios',
-      'Framer Motion',
+      'Vercel',
     ],
     feature: [
       'Kakao MAP API 사용을 위한 useMap Hook(줌 인/아웃, 내위치 이동, custom overlay) 구현',
@@ -33,7 +34,14 @@ export const projects: ProjectInfo[] = [
     projectParticipants: 'FE4명 + BE3명',
     deployLink: 'https://odeego.vercel.app/',
     githubLink: 'https://github.com/prgrms-web-devcourse/Team-PODO-ODEEGO-FE',
-    stackList: ['React', 'TypeScript', 'Next.js', 'React Query', 'Axios'],
+    stackList: [
+      'React',
+      'TypeScript',
+      'Next.js',
+      'React Query',
+      'Axios',
+      'Vercel',
+    ],
     feature: [
       '1주 단위의 스프린트를 통해 스크럼과 회고를 진행',
       'BE와 통신할 때 에러분기를 더 상세히 나누기 위해서 customError코드를 사용하기로 협의',
@@ -55,6 +63,7 @@ export const projects: ProjectInfo[] = [
       'styled-components',
       'React Query',
       'Axios',
+      'Vercel',
     ],
     feature: [
       '게시글 CRUD 구현',

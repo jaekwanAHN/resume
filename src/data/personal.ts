@@ -10,7 +10,7 @@ export const personalInformation: PersonalInformation = {
     ['TypeScript', 'JavaScript'],
     ['React', 'Next.js'],
     ['Tailwind CSS', 'Chakra UI', 'styled-components', 'Storybook'],
-    ['Axios', 'React Query', 'React Hook Form', 'Vercel', 'Vite'],
+    ['Vite', 'React Query', 'Axios', 'React Hook Form', 'Vercel'],
     ['Git', 'GitHub'],
   ],
   experiences: [
