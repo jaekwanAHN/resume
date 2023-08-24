@@ -33,7 +33,7 @@ export const personalInformation: PersonalInformation = {
   certification: '정보처리기사 2020-12',
   activities: [
     {
-      title: 'NextJS DOC 한글화 작업 참여',
+      title: 'Next.js Docs 한글화 작업 참여',
       link: 'https://github.com/Nextjs-kr/Nextjs.kr/pull/252',
       description: `app/api-reference/components/script 문서를 번역했습니다.`,
     },
