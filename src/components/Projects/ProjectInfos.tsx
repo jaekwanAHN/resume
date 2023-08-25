@@ -5,7 +5,7 @@ interface ProjectInfos {
   projectTitle: string;
   projectDate: string;
   projectParticipants: string;
-  deployLink: string;
+  deployLink?: string;
   githubLink: string;
 }
 

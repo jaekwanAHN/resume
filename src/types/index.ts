@@ -3,7 +3,7 @@ export interface ProjectInfo {
   description: string;
   projectDate: string;
   projectParticipants: string;
-  deployLink: string;
+  deployLink?: string;
   githubLink: string;
   stackList: string[];
   feature: string[];
