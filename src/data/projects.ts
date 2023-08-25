@@ -44,7 +44,7 @@ export const projects: ProjectInfo[] = [
     ],
     feature: [
       'BE와 협의를 통해 customError코드를 사용하여 400으로만 내려오던 에러코드를 세분화하여 상황에 맞는 에러 핸들링 수행, FE 개발 편의성 향상',
-      'Vercel Serverless Functions를 사용하여 외부에 환경변수 노출 방지',
+      'Vercel Serverless Functions의 API Routes를 사용하여 외부에 환경변수 노출 방지',
       'ESLint, Prettier, husky를 적용하고 github-wiki에 컨벤션을 작성하여 통일',
       '1주 단위의 스프린트를 통해 스크럼과 회고를 진행',
       '리뷰 파트너를 정하여 코드 리뷰를 진행',
