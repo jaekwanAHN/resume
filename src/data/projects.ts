@@ -20,11 +20,11 @@ export const projects: ProjectInfo[] = [
     ],
     feature: [
       'Kakao MAP API 사용을 위한 useMap Hook(줌 인/아웃, 내위치 이동, custom overlay) 구현',
-      'Geolocation  API를 사용하여 내위치 기반 정보 제공 ',
-      'Error Boundary와 Suspense를 묶은 Async Boundary를 적용하여 선언적으로 에러 처리와 로딩 UI 처리',
-      '반응형 페이지들로 제작하여 다양한 환경에 대응',
+      'Geolocation API를 사용하여 내위치 기반 정보 제공 ',
+      'Error Boundary와 Suspense를 묶은 Async Boundary를 적용하여 선언적 에러 처리와 로딩UI 처리',
+      '반응형 페이지로 제작하여 다양한 환경에 대응',
       'UI 일관성 유지를 위하여 Skeleton UI 적용',
-      '각 페이지간 이동을 위한 네비게이션바 구현',
+      '모바일 환경에서의 편의성을 고려하여 네비게이션바 구현',
     ],
   },
   {
@@ -43,9 +43,9 @@ export const projects: ProjectInfo[] = [
       'Vercel',
     ],
     feature: [
+      'BE와 협의를 통해 customError코드를 사용하여 400으로만 내려오던 에러코드를 세분화하여 상황에 맞는 에러 핸들링 수행, 개발 편의성 향상',
       '1주 단위의 스프린트를 통해 스크럼과 회고를 진행',
-      'BE와 통신할 때 에러분기를 더 상세히 나누기 위해서 customError코드를 사용하기로 협의',
-      'API Routes를 사용하여 외부에 환경변수가 노출 방지',
+      'Vercel Serverless Functions를 사용하여 외부에 환경변수 노출 방지',
       'ESLint, Prettier, husky를 적용하고 github-wiki에 컨벤션을 작성하여 통일',
       '리뷰 파트너를 정하여 코드 리뷰를 진행',
     ],
@@ -67,9 +67,9 @@ export const projects: ProjectInfo[] = [
     ],
     feature: [
       '게시글 CRUD 구현',
-      '이미지 업로드 크기, 확장자를 제한하여 API 호출시 에러 방지',
-      '게시글의 좋아요, 댓글 기능 구현',
-      '업로드 할 이미지 미리보기 구현',
+      '이미지 업로드 시 크기, 확장자를 제한하여 사용자가 API 에러를 경험하지 않도록 방지',
+      '게시글 작성, 수정 시 업로드할 이미지를 미리 볼 수 있도록 구현',
+      '비밀 댓글 옵션으로 작성자와 글쓴이만 해당 댓글을 확인할 수 있도록 구현',
     ],
   },
   {
