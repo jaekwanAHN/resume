@@ -29,3 +29,5 @@ export interface PersonalInformation {
     description: string;
   }[];
 }
+
+export type introduces = string[];
