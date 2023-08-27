@@ -29,7 +29,7 @@ export const personalInformation: PersonalInformation = {
       ],
     },
   ],
-  education: '국민대학교(컴퓨터공학 전공 • 학사 ) 2014-02 ~ 2021-02',
+  education: '국민대학교(컴퓨터공학 전공 • 학사) 2014-02 ~ 2021-02',
   certification: '정보처리기사 2020-12',
   activities: [
     {
