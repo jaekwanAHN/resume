@@ -13,9 +13,7 @@ const Contact = ({ phoneNumber, eMail, github, blog }: ContactProps) => {
       <tbody>
         <tr>
           <td>P.H: </td>
-          <td>
-            <b>{phoneNumber}</b>
-          </td>
+          <td>{phoneNumber}</td>
         </tr>
         <tr>
           <td>Email: </td>
