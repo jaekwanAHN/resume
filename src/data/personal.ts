@@ -9,11 +9,18 @@ export const personalInformation: PersonalInformation = {
   skills: [
     ['TypeScript', 'JavaScript'],
     ['React', 'Next.js'],
-    ['Tailwind CSS', 'Chakra UI', 'styled-components', 'Storybook'],
-    ['Vite', 'React Query', 'Axios', 'React Hook Form', 'Vercel'],
-    ['Git', 'GitHub'],
+    ['styled-components', 'Tailwind CSS', 'Chakra UI', 'Storybook'],
+    ['React Query', 'Redux', 'React Hook Form', 'Vercel', 'Vite'],
+    ['Git', 'GitHub', 'GitLab'],
   ],
   experiences: [
+    {
+      name: '하우저 (HOWSER)',
+      date: '2023-11 ~ ing',
+      works: [
+        '레거시 프로젝트의 Vanilla JS와 마이그레이션 중인 프로젝트의 React를 사용하여 기능 추가 및 버그 수정을 진행하였습니다.',
+      ],
+    },
     {
       name: '한국과학기술정보연구원 (비개발)',
       date: '2020-09 ~ 2021-01',
