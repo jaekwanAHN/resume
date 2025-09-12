@@ -16,7 +16,7 @@ export const personalInformation: PersonalInformation = {
   experiences: [
     {
       name: '하우저 (HOWSER)',
-      date: '2023-11 ~ ing',
+      date: '2023-11 ~ 2025-11',
       works: [
         '레거시 프로젝트의 Vanilla JS와 마이그레이션 중인 프로젝트의 React를 사용하여 기능 추가 및 버그 수정을 진행하였습니다.',
       ],
