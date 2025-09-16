@@ -9,8 +9,8 @@ export const personalInformation: PersonalInformation = {
   skills: [
     ['TypeScript', 'JavaScript'],
     ['React', 'Next.js'],
-    ['styled-components', 'Tailwind CSS', 'Chakra UI', 'Storybook'],
-    ['React Query', 'Redux', 'React Hook Form', 'Vercel', 'Vite'],
+    ['styled-components', 'Tailwind CSS', 'Storybook'],
+    ['React Query', 'Redux'],
     ['Git', 'GitHub', 'GitLab'],
   ],
   experiences: [
@@ -18,21 +18,23 @@ export const personalInformation: PersonalInformation = {
       name: '하우저 (HOWSER)',
       date: '2023-11 ~ 2025-11',
       works: [
-        '레거시 프로젝트의 Vanilla JS와 마이그레이션 중인 프로젝트의 React를 사용하여 기능 추가 및 버그 수정을 진행하였습니다.',
+        '레거시 프로젝트 코드 리팩터링으로 불필요코드제거, 로직 간소화 코드양 30% 감소',
+        'valinaJS -> NextJS 로 마이그레이션',
+        'Styled-alias 정리로 컨벤션 통일'
       ],
     },
     {
       name: '한국과학기술정보연구원 (비개발)',
       date: '2020-09 ~ 2021-01',
       works: [
-        '여러 분야의 논문들을 카테고리에 맞는 문장별로 분리했습니다. 100% 재택근무로 진행되었고 피드백을 단방향으로만 제공하는 형태였기 때문에 작업자 간 의사소통이 불가능하였습니다. 이에 피드백의 내용들 중 공통으로 언급된 내용을 반영하며 작업을 진행하였으나, 구체적인 이유나 내용을 알 수 없어 아쉬웠습니다. 구성원들 간의 소통이 중요하다고 느끼게 된 경험이었습니다.',
+        '여러 분야의 논문들을 카테고리에 맞는 문장별로 분리',
       ],
     },
     {
       name: '신우TNS (비개발)',
       date: '2019-07 ~ 2019-12',
       works: [
-        '네트워크 엔지니어 고객사의 장비 트러블 슈팅, 유지보수, 점검을 진행했습니다. 업데이트를 위해 협업했던 개발사에서 솔루션의 코드의 수정이 필요했는데 하드 코딩된 코드가 많고 전임자의 퇴사로 거의 처음부터 새로 만들어야 한다는 답변을 들었습니다. 이 기억을 떠올리며 이해하기 쉽고, 재사용하기 좋은 코드를 작성하는 것이 매우 중요하다고 느끼고 있습니다.',
+        '네트워크 엔지니어 고객사의 장비 트러블 슈팅, 유지보수, 점검을 진행',
       ],
     },
   ],
