@@ -12,10 +12,10 @@ export default function Page() {
   return (
     <main>
       <Header PersonalInformation={personalInformation} />
+      <Experiences experiences={personalInformation.experiences} />
       <Projects projects={projects} />
       <Skills skills={personalInformation.skills} />
       <Activities activities={personalInformation.activities} />
-      <Experiences experiences={personalInformation.experiences} />
       <Education education={personalInformation.education} />
       <Certification certification={personalInformation.certification} />
     </main>

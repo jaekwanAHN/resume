@@ -34,8 +34,29 @@ export const projects: ProjectInfo[] = [
     stackList: ['JavaScript', 'jQuery', 'JSP'],
     feature: [
       'JQuery 활용으로 checkBox 공통 모듈 제작',
+      '레거시 코드 리팩터링으로 불필요 코드제거, 중첩 조건문 등 복잡한 로직 간소화',
+      '설정 파일 수정으로 서버를 재부팅 하지 않아도 변경내용을 확인할 수 있도록 수정',
       '백엔드 REST API와 통신으로 화면 구현',
-      '레거시 코드 리팩터링으로 중복 로직 제거, 중첩 조건문 간소화를 통해 코드 가독성 향상 ',
+    ],
+  },
+  {
+    projectTitle: 'customer-react',
+    description: '개인고객 주문 진행 서비스',
+    projectDate: '2023.11 ~ 2025.09',
+    projectParticipants: '- 명',
+    deployLink: '',
+    githubLink: '',
+    stackList: [
+      'React',
+      'Next.js',
+      'TypeScript',
+      'react Query',
+      'styled-Components',
+      'Redux',
+    ],
+    feature: [
+      'PUT 메서드 동작시 payload 수정으로 기존의 첨부파일이 삭제되던 현상 수정',
+      '백엔드 API 이관작업의 일환으로 31개 API 교체',
     ],
   },
   {
@@ -53,24 +74,7 @@ export const projects: ProjectInfo[] = [
       'styled-Components',
       'Redux',
     ],
-    feature: ['기존 API를 활용하여 신규 기능 추가'],
-  },
-  {
-    projectTitle: 'customer-react',
-    description: '개인고객 주문 진행 서비스',
-    projectDate: '2023.11 ~ 2025.09',
-    projectParticipants: '- 명',
-    deployLink: '',
-    githubLink: '',
-    stackList: [
-      'React',
-      'Next.js',
-      'TypeScript',
-      'react Query',
-      'styled-Components',
-      'Redux',
-    ],
-    feature: ['백엔드 API 이관', 'API 수정으로 기존의 첨부파일이 삭제되던 현상 해결'],
+    feature: ['기존 API를 활용하여 신규 물류 센터 정보 필터링 구현'],
   },
   {
     projectTitle: 'admin-react',
@@ -88,7 +92,7 @@ export const projects: ProjectInfo[] = [
       'Redux',
     ],
     feature: [
-      'DFS 서버 세팅을 추가하여 신규 API 통신, 주문 재수집페이지 생성',
+      'DFS 서버 설정추가 및 신규 API REST 통신를 통해 주문 재수집페이지 구현',
     ],
   },
   {
