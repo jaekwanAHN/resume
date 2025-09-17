@@ -13,18 +13,6 @@ export const personalInformation: PersonalInformation = {
     ['React Query', 'Redux'],
     ['Git', 'GitHub', 'GitLab'],
   ],
-  experiences: [
-    {
-      name: '하우저 (HOWSER)',
-      date: '2023-11 ~ 2025-11',
-      works: [
-        '고객사, 서비스 관리자, 물류배달기사와 같은 다양한 출처의 VOC를 수렴하여 서비스 유지/보수',
-        '레거시 리팩터링으로 불필요한 코드 제거, 중첩 조건문 등 복잡한 로직 단순화',
-        '일부 메뉴 valinaJS -> Next.js 마이그레이션',
-        'Next.js, jQuery로 구성된 5개의 프로젝트에서 신규페이지 추가, 서비스 유지/보수 진행'
-      ],
-    },
-  ],
   education: '국민대학교(컴퓨터공학 전공 • 학사) 2014-02 ~ 2021-02',
   certification: '정보처리기사 2020-12',
   activities: [

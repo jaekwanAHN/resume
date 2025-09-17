@@ -16,11 +16,6 @@ export interface PersonalInformation {
   github: string;
   blog: string;
   skills: string[][];
-  experiences: {
-    name: string;
-    date: string;
-    works: string[];
-  }[];
   education: string;
   certification: string;
   activities: {
