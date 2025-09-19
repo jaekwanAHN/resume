@@ -17,11 +17,11 @@ export const projects: ProjectInfo[] = [
       'Redux',
     ],
     feature: [
-      '검색필터에서 공통으로 사용하는 selectBox 컴포넌트 제작',
-      'Button 컴포넌트 타입 수정으로 as props의 기본 속성들또한 사용가능하도록 수정',
-      'reactQuery를 활용하여 백엔드 REST API와 통신, query-Key를 활용한 invalidateQueries 사용과 데이터 관리',
+      'reactQuery를 활용하여 백엔드 REST API와 통신, query-Key기반 invalidateQueries로 데이터 불일치 최소화',
+      'Redux Toolkit 기반 폼 상태 관리로 UI상태, 로딩 흐름을 표준화하여 유지보수성을 개선.',
+      'Button 컴포넌트를 Polymorphic 구조로 리팩터링해 as prop을 지원하고, 타입 정의를 개선하여 불필요한 타입 충돌 제거.',
       '공통 컴포넌트 사용중 클릭시 다른 요소가 선택되던 현상 수정 및 차후 재발 방지',
-      'Styled-alias-import로 styled-component 관련 네이밍, 사용 환경 개선',
+      'Styled-alias-import로 styled 관련 네이밍, 사용 환경 개선',
     ],
   },
   {
@@ -33,10 +33,9 @@ export const projects: ProjectInfo[] = [
     githubLink: '',
     stackList: ['JavaScript', 'jQuery', 'JSP'],
     feature: [
-      'JQuery 활용으로 checkBox 공통 모듈 제작',
-      '레거시 코드 리팩터링으로 불필요 코드제거, 중첩 조건문 등 복잡한 로직 간소화',
-      '설정 파일 수정으로 서버를 재부팅 하지 않아도 변경내용을 확인할 수 있도록 수정',
-      '백엔드 REST API와 통신으로 화면 구현',
+      '레거시 코드 리팩터링으로 불필요 코드제거, 중복 로직 함수화 및 이벤트 버블랑 활용으로 코드 간소화',
+      'application.yml 수정으로 서버를 재부팅 하지 않아도 변경내용을 확인할 수 있도록하여 개발 시간 단축',
+      'jQuery Ajax를 통해 백엔드 REST API와 통신으로 데이터 기반 UI 구현',
     ],
   },
   {
@@ -56,7 +55,7 @@ export const projects: ProjectInfo[] = [
     ],
     feature: [
       'PUT 메서드 동작시 payload 수정으로 기존의 첨부파일이 삭제되던 현상 수정',
-      '백엔드 API 이관작업의 일환으로 31개 API 교체',
+      '백엔드 API 이관작업의 일환으로 31개 API 교체 및 타입추가',
     ],
   },
   {
@@ -92,7 +91,7 @@ export const projects: ProjectInfo[] = [
       'Redux',
     ],
     feature: [
-      'DFS 서버 설정추가 및 신규 API REST 통신를 통해 주문 재수집페이지 구현',
+      'DFS 서버를 사용하는 신규 API REST 통신를 통해 주문 재수집페이지 구현으로 수동 작업의 자동화',
     ],
   },
   {
