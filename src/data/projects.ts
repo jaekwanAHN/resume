@@ -5,7 +5,7 @@ export const projects: ProjectInfo[] = [
     projectTitle: 'www-react',
     description: '기업고객문의관리, 전체의뢰설정 서비스',
     projectDate: '2023.11 ~ 2025.09',
-    projectParticipants: '- 명',
+    projectParticipants: '',
     deployLink: '',
     githubLink: '',
     stackList: [
@@ -28,12 +28,12 @@ export const projects: ProjectInfo[] = [
     projectTitle: 'web-JSP',
     description: '개별 의뢰관리 서비스',
     projectDate: '2023.11 ~ 2025.09',
-    projectParticipants: '- 명',
+    projectParticipants: '',
     deployLink: '',
     githubLink: '',
     stackList: ['JavaScript', 'jQuery', 'JSP'],
     feature: [
-      '레거시 코드 리팩터링으로 불필요 코드제거, 중복 로직 함수화 및 이벤트 버블랑 활용으로 코드 간소화',
+      '레거시 코드 리팩터링으로 불필요 코드제거, 중복 로직 함수화 및 이벤트 버블링 활용으로 코드 간소화',
       'application.yml 수정으로 서버를 재부팅 하지 않아도 변경내용을 확인할 수 있도록하여 개발 시간 단축',
       'jQuery Ajax를 통해 백엔드 REST API와 통신으로 데이터 기반 UI 구현',
     ],
@@ -42,7 +42,7 @@ export const projects: ProjectInfo[] = [
     projectTitle: 'customer-react',
     description: '개인고객 주문 진행 서비스',
     projectDate: '2023.11 ~ 2025.09',
-    projectParticipants: '- 명',
+    projectParticipants: '',
     deployLink: '',
     githubLink: '',
     stackList: [
@@ -62,7 +62,7 @@ export const projects: ProjectInfo[] = [
     projectTitle: 'moweb-react',
     description: '배송기사 대상의 의뢰 정보 확인 서비스',
     projectDate: '2023.11 ~ 2025.09',
-    projectParticipants: '- 명',
+    projectParticipants: '',
     deployLink: '',
     githubLink: '',
     stackList: [
@@ -79,7 +79,7 @@ export const projects: ProjectInfo[] = [
     projectTitle: 'admin-react',
     description: '관리자 대상 페이지',
     projectDate: '2023.11 ~ 2025.09',
-    projectParticipants: '- 명',
+    projectParticipants: '',
     deployLink: '',
     githubLink: '',
     stackList: [

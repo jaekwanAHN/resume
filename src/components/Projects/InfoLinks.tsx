@@ -2,7 +2,7 @@ import Link from 'next/link';
 
 interface InfoLinksProps {
   deployLink?: string;
-  githubLink: string;
+  githubLink?: string;
 }
 
 const InfoLinks = ({ deployLink, githubLink }: InfoLinksProps) => {
@@ -10,7 +10,7 @@ const InfoLinks = ({ deployLink, githubLink }: InfoLinksProps) => {
     <>
       {deployLink ? <Link href={deployLink}>배포 링크</Link> : ''}
       <br />
-      <Link href={githubLink}>GitHub 링크</Link>
+      {githubLink ? <Link href={githubLink}>GitHub 링크</Link> : ''}
     </>
   );
 };

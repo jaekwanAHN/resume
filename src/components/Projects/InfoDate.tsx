@@ -1,7 +1,7 @@
 interface InFoDateProps {
   projectTitle: string;
   projectDate: string;
-  projectParticipants: string;
+  projectParticipants?: string;
 }
 
 const InfoDate = ({

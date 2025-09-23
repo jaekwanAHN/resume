@@ -7,6 +7,7 @@ interface ProjectInfoProps {
 }
 
 const Projects = ({ projects }: ProjectInfoProps) => {
+  console.log(projects);
   return (
     <div className="section flex justify-start flex-col">
       <p className="text-2xl text-blue-500 sectionTitle">Projects</p>

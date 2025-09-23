@@ -4,9 +4,9 @@ import InfoLinks from '@/components/Projects/InfoLinks';
 interface ProjectInfos {
   projectTitle: string;
   projectDate: string;
-  projectParticipants: string;
+  projectParticipants?: string;
   deployLink?: string;
-  githubLink: string;
+  githubLink?: string;
 }
 
 const ProjectInfos = ({
