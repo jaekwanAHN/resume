@@ -1,5 +1,6 @@
 export interface ProjectInfo {
   projectTitle: string;
+  companyName?: string;
   description: string;
   projectDate: string;
   projectParticipants?: string;
@@ -24,5 +25,3 @@ export interface PersonalInformation {
     description: string;
   }[];
 }
-
-export type introduces = string[];

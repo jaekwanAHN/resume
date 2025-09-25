@@ -20,6 +20,7 @@ const Projects = ({ projects }: ProjectInfoProps) => {
             <div className="flex">
               <ProjectInfos
                 projectTitle={project.projectTitle}
+                companyName={project.companyName}
                 projectDate={project.projectDate}
                 projectParticipants={project.projectParticipants}
                 deployLink={project.deployLink}

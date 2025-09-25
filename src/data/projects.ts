@@ -3,6 +3,7 @@ import { ProjectInfo } from '@/types';
 export const projects: ProjectInfo[] = [
   {
     projectTitle: 'www-react',
+    companyName: '하우저 (Howser)',
     description: '기업 고객 문의 관리, 전체 의뢰설정 서비스',
     projectDate: '2023.11 ~ 2025.09',
     projectParticipants: '',
@@ -26,6 +27,7 @@ export const projects: ProjectInfo[] = [
   },
   {
     projectTitle: 'web-JSP',
+    companyName: '하우저 (Howser)',
     description: '개별 의뢰관리 서비스',
     projectDate: '2023.11 ~ 2025.09',
     projectParticipants: '',
@@ -40,6 +42,7 @@ export const projects: ProjectInfo[] = [
   },
   {
     projectTitle: 'customer-react',
+    companyName: '하우저 (Howser)',
     description: '개인 고객 주문진행 서비스',
     projectDate: '2023.11 ~ 2025.09',
     projectParticipants: '',
@@ -61,6 +64,7 @@ export const projects: ProjectInfo[] = [
   },
   {
     projectTitle: 'moweb-react',
+    companyName: '하우저 (Howser)',
     description: '배송 기사 대상의 의뢰 정보 확인 서비스',
     projectDate: '2023.11 ~ 2025.09',
     projectParticipants: '',
@@ -81,6 +85,7 @@ export const projects: ProjectInfo[] = [
   },
   {
     projectTitle: 'admin-react',
+    companyName: '하우저 (Howser)',
     description: '관리자 대상 페이지',
     projectDate: '2023.11 ~ 2025.09',
     projectParticipants: '',
