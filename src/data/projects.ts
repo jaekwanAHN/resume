@@ -17,7 +17,7 @@ export const projects: ProjectInfo[] = [
       'Redux',
     ],
     feature: [
-      'reactQuery를 활용하여 백엔드 REST API와 통신, query-Key기반 invalidateQueries로 데이터 불일치 최소화',
+      'react Query를 활용하여 백엔드 REST API와 통신, query-Key기반 invalidateQueries로 데이터 불일치 최소화',
       'Redux Toolkit 기반 폼 상태 관리로 UI상태, 로딩 흐름을 표준화하여 유지보수성을 개선.',
       'Button 컴포넌트를 Polymorphic 구조로 리팩터링해 as prop을 지원하고, 타입 정의를 개선하여 불필요한 타입 충돌 제거.',
       '공통 컴포넌트 사용중 클릭시 다른 요소가 선택되던 현상 수정 및 차후 재발 방지',
@@ -54,6 +54,7 @@ export const projects: ProjectInfo[] = [
       'Redux',
     ],
     feature: [
+      'React Query 전역 onSuccess 처리 시 발생한 오류로 인해 후속 onSuccess가 실행되지 않는 문제를 수정, 캐시 무효화와 후속 로직 실행 안정성 개선',
       'PUT 메서드 동작시 payload 수정으로 기존의 첨부파일이 삭제되던 현상 수정',
       '백엔드 API 이관작업의 일환으로 31개 API 교체 및 타입추가',
     ],
@@ -73,7 +74,10 @@ export const projects: ProjectInfo[] = [
       'styled-Components',
       'Redux',
     ],
-    feature: ['기존 API를 활용하여 신규 물류 센터 정보 필터링 구현'],
+    feature: [
+      '기존 API를 활용하여 신규 물류 센터 정보 필터링 구현',
+      'API Response data 타입 수정으로 잘못된 값이 노출되던 현상 수정',
+    ],
   },
   {
     projectTitle: 'admin-react',
@@ -92,6 +96,7 @@ export const projects: ProjectInfo[] = [
     ],
     feature: [
       'DFS 서버를 사용하는 신규 API REST 통신를 통해 주문 재수집페이지 구현으로 수동 작업의 자동화',
+      'Debouncing, Throttling 활용으로 API 요청 최소화',
     ],
   },
   {
