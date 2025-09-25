@@ -19,7 +19,7 @@ export const projects: ProjectInfo[] = [
     feature: [
       'react Query를 활용하여 백엔드 REST API와 통신, query-Key기반 invalidateQueries로 데이터 불일치 최소화',
       'Redux Toolkit 기반 폼 상태 관리로 UI상태, 로딩 흐름을 표준화하여 유지보수성을 개선.',
-      'Button 컴포넌트를 Polymorphic 구조로 리팩터링해 as prop을 지원하고, 타입 정의를 개선하여 불필요한 타입 충돌 제거.',
+      'React.ElementType 기반 제네릭과 Omit 유틸 타입을 적용해 타입 정의를 개선함으로써, as prop 으로 전달된 엘리먼트의 고유 속성까지 안전하게 사용할 수 있도록개선',
       '공통 컴포넌트 사용중 클릭시 다른 요소가 선택되던 현상 수정 및 차후 재발 방지',
       'Styled-alias-import로 styled 관련 네이밍, 사용 환경 개선',
     ],

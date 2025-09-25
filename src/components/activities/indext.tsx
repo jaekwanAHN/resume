@@ -11,7 +11,7 @@ interface activitiesProps {
 const Activities = ({ activities }: activitiesProps) => {
   return (
     <ul className="section marker:text-blue-500 list-disc list-inside mb-2">
-      <p className="text-2xl text-blue-500 sectionTitle">Activities</p>
+      <p className="text-2xl text-blue-500 sectionTitle">활동</p>
       {activities.map((activity) => {
         return (
           <li key={activity.title}>

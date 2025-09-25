@@ -3,13 +3,12 @@ import introduce from '@/data/introduce';
 const Introduce = () => {
   return (
     <div className="mb-2">
-      <p className="text-2xl text-blue-500 sectionTitle">Introduce</p>
-      {introduce.map((introduce: string) => {
-        let splitIntroduceIntroduce = introduce.split('.');
+      <div className="h-8"></div>
+      {introduce.map((introduce) => {
         return (
-          <p key={introduce}>
-            <b>{`${splitIntroduceIntroduce[0]}.`}</b>
-            {splitIntroduceIntroduce.slice(1).join('.')}
+          <p key={introduce.title}>
+            <b>{introduce.title}</b>
+            {introduce.content}
             <br />
             <br />
           </p>

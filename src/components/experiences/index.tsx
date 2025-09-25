@@ -10,7 +10,7 @@ const Experiences = ({ experiences }: ExperiencesProps) => {
   return (
     <div className="section">
       <div>
-        <p className="text-2xl text-blue-500 sectionTitle">Experiences</p>
+        <p className="text-2xl text-blue-500 sectionTitle">경력</p>
       </div>
       {experiences.map((experience) => {
         return (
