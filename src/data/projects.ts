@@ -3,7 +3,7 @@ import { ProjectInfo } from '@/types';
 export const projects: ProjectInfo[] = [
   {
     projectTitle: 'www-react',
-    description: '기업고객문의관리, 전체의뢰설정 서비스',
+    description: '기업 고객 문의 관리, 전체 의뢰설정 서비스',
     projectDate: '2023.11 ~ 2025.09',
     projectParticipants: '',
     deployLink: '',
@@ -18,9 +18,9 @@ export const projects: ProjectInfo[] = [
     ],
     feature: [
       'react Query를 활용하여 백엔드 REST API와 통신, query-Key기반 invalidateQueries로 데이터 불일치 최소화',
-      'Redux Toolkit 기반 폼 상태 관리로 UI상태, 로딩 흐름을 표준화하여 유지보수성을 개선.',
-      'React.ElementType 기반 제네릭과 Omit 유틸 타입을 적용해 타입 정의를 개선함으로써, as prop 으로 전달된 엘리먼트의 고유 속성까지 안전하게 사용할 수 있도록개선',
-      '공통 컴포넌트 사용중 클릭시 다른 요소가 선택되던 현상 수정 및 차후 재발 방지',
+      'Redux Toolkit 기반 폼 상태 관리로 UI 상태, 로딩 흐름을 표준화하여 유지보수성을 개선.',
+      'React.ElementType 기반 제네릭과 Omit 유틸 타입을 적용해 타입 정의를 개선함으로써, as prop 으로 전달된 엘리먼트의 고유 속성까지 안전하게 사용할 수 있도록 개선',
+      '공통 컴포넌트 사용 중 클릭 시 다른 요소가 선택되던 현상 수정 및 차후 재발 방지',
       'Styled-alias-import로 styled 관련 네이밍, 사용 환경 개선',
     ],
   },
@@ -33,14 +33,14 @@ export const projects: ProjectInfo[] = [
     githubLink: '',
     stackList: ['JavaScript', 'jQuery', 'JSP'],
     feature: [
-      '레거시 코드 리팩터링으로 불필요 코드제거, 중복 로직 함수화 및 이벤트 버블링 활용으로 코드 간소화',
-      'application.yml 수정으로 서버를 재부팅 하지 않아도 변경내용을 확인할 수 있도록하여 개발 시간 단축',
+      '레거시 코드 리팩터링으로 불필요 코드 제거, 중복 로직 함수화 및 이벤트 버블링 활용으로 코드 간소화',
+      'application.yml 수정으로 서버를 재부팅 하지 않아도 변경 내용을 확인할 수 있도록 하여 개발 시간 단축',
       'jQuery Ajax를 통해 백엔드 REST API와 통신으로 데이터 기반 UI 구현',
     ],
   },
   {
     projectTitle: 'customer-react',
-    description: '개인고객 주문 진행 서비스',
+    description: '개인 고객 주문진행 서비스',
     projectDate: '2023.11 ~ 2025.09',
     projectParticipants: '',
     deployLink: '',
@@ -55,13 +55,13 @@ export const projects: ProjectInfo[] = [
     ],
     feature: [
       'React Query 전역 onSuccess 처리 시 발생한 오류로 인해 후속 onSuccess가 실행되지 않는 문제를 수정, 캐시 무효화와 후속 로직 실행 안정성 개선',
-      'PUT 메서드 동작시 payload 수정으로 기존의 첨부파일이 삭제되던 현상 수정',
-      '백엔드 API 이관작업의 일환으로 31개 API 교체 및 타입추가',
+      'PUT 메서드 동작 시 payload 수정으로 기존의 첨부파일이 삭제되던 현상 수정',
+      '백엔드 API 이관 작업의 일환으로 31개 API 교체 및 타입 추가',
     ],
   },
   {
     projectTitle: 'moweb-react',
-    description: '배송기사 대상의 의뢰 정보 확인 서비스',
+    description: '배송 기사 대상의 의뢰 정보 확인 서비스',
     projectDate: '2023.11 ~ 2025.09',
     projectParticipants: '',
     deployLink: '',
@@ -95,7 +95,7 @@ export const projects: ProjectInfo[] = [
       'Redux',
     ],
     feature: [
-      'DFS 서버를 사용하는 신규 API REST 통신를 통해 주문 재수집페이지 구현으로 수동 작업의 자동화',
+      'DFS 서버를 사용하는 신규 API REST 통신을 통해 주문 재수집 페이지 구현으로 수동 작업의 자동화',
       'Debouncing, Throttling 활용으로 API 요청 최소화',
     ],
   },
