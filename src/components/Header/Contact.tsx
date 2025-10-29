@@ -33,12 +33,12 @@ const Contact = ({ phoneNumber, eMail, github, blog }: ContactProps) => {
           </td>
         </tr>
         <tr>
-          <td>Blog: </td>
+          {/* <td>Blog: </td>
           <td>
             <Link href={blog}>
               <b>{blog}</b>
             </Link>
-          </td>
+          </td> */}
         </tr>
       </tbody>
     </table>
