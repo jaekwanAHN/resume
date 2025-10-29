@@ -16,7 +16,7 @@ const Header = ({ PersonalInformation }: HeaderProps) => {
   const { name, phoneNumber, eMail, github, blog } = PersonalInformation;
 
   return (
-    <div className="section">
+    <div className="mb-4">
       <div className="flex flex-row justify-around mb-1.5">
         <Profile name={name} />
         <Contact

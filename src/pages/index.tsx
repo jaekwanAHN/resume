@@ -1,4 +1,4 @@
-import Activities from '@/components/activities/indext';
+import Activities from '@/components/activities';
 import Header from '@/components/Header';
 import Projects from '@/components/Projects';
 import Certification from '@/components/certification';

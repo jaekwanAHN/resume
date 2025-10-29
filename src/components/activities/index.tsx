@@ -10,14 +10,16 @@ interface activitiesProps {
 
 const Activities = ({ activities }: activitiesProps) => {
   return (
-    <ul className="section marker:text-blue-500 list-disc list-inside mb-2">
+    <ul className="mb-4">
       <p className="text-2xl text-blue-500 sectionTitle">활동</p>
       {activities.map((activity) => {
         return (
-          <li key={activity.title}>
+          <li
+            key={activity.title}
+            className="marker:text-blue-500 list-disc list-inside h-auto"
+          >
             <Link href={activity.link}>{activity.title}</Link>
             <p>{activity.description}</p>
-            <br />
           </li>
         );
       })}

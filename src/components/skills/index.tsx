@@ -4,7 +4,7 @@ interface skillList {
 
 const Skills = ({ skills }: skillList) => {
   return (
-    <div className="section">
+    <div className="mb-4">
       <p className="text-2xl text-blue-500 sectionTitle">기술</p>
       <ul className="marker:text-blue-500 list-disc list-inside">
         {skills.map((skillList, idx) => {

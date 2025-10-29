@@ -8,7 +8,7 @@ interface ExperiencesProps {
 
 const Experiences = ({ experiences }: ExperiencesProps) => {
   return (
-    <div className="section">
+    <div className="mb-4">
       <div>
         <p className="text-2xl text-blue-500 sectionTitle">경력</p>
       </div>
