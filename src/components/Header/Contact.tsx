@@ -4,7 +4,7 @@ interface ContactProps {
   phoneNumber: string;
   eMail: string;
   github: string;
-  blog: string;
+  blog?: string;
 }
 
 const Contact = ({ phoneNumber, eMail, github, blog }: ContactProps) => {

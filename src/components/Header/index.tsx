@@ -8,7 +8,7 @@ interface HeaderProps {
     phoneNumber: string;
     eMail: string;
     github: string;
-    blog: string;
+    blog?: string;
   };
 }
 
