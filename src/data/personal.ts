@@ -7,8 +7,7 @@ export const personalInformation: PersonalInformation = {
   github: 'https://github.com/jaekwanAHN',
   blog: 'https://jaekwan.tistory.com',
   skills: [
-    ['TypeScript', 'JavaScript'],
-    ['React', 'Next.js'],
+    ['React', 'TypeScript', 'Next.js', 'JavaScript'],
     ['styled-components', 'Tailwind CSS', 'Storybook'],
     ['React Query', 'Redux'],
     ['Git', 'GitHub', 'GitLab'],
