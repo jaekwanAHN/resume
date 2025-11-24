@@ -7,7 +7,10 @@ export interface ProjectInfo {
   deployLink?: string;
   githubLink?: string;
   stackList: string[];
-  feature: string[];
+  feature: {
+    main: string;
+    sub?: string[];
+  }[];
 }
 
 export interface PersonalInformation {
